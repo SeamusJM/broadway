@@ -1,14 +1,19 @@
 * {
   font-family: Helvetica, Arial, sans-serif;
+  display: block;
 }
 
 header {
-  background-image:url("C:\Users\Seamus\Documents\webDev\codeCademy\Projects\Broadway\Resources\images\the-flatiron-building.png");
+  background-image:url("../../Resources/images/the-flatiron-building.png");
+  text-align: center;
+  color: white;
 }
 h1 {
-  color: blue;
+  color: white;
 }
-
+nav a {
+  color: white;
+}
 h2 {
   color: seagreen;
 }
@@ -25,4 +30,9 @@ p {
 a {
   color: blue;
   text-decoration: underline;
+}
+
+footer {
+  background-color: dimgray;
+
 }
